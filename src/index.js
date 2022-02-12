@@ -5,11 +5,15 @@ import App from './App';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+import { CategoriesControl } from './features/categories/CategoriesControl'
+import { LinksTreeControl } from './features/linksTree/LinksTreeControl'
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      {/* <App /> */}
+      <CategoriesControl/>
+      {/* <LinksTreeControl/> */}
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

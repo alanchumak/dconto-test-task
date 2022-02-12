@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import categoriesReducer from '../features/categories/categoriesSlice';
+import linksTreeReducer from '../features/linksTree/linksTreeSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    categories: categoriesReducer,
+    // linksTree: linksTreeReducer,
   },
 });

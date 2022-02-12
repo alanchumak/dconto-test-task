@@ -1,0 +1,108 @@
+.focused{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: none;
+}
+
+.unfocused{
+    background-color: transparent;
+    border: 0;
+}
+
+.layer{
+    float: left; 
+     padding-right: 10px;
+    border-right: 1px dashed gray;
+    overflow-y: scroll;
+}
+
+.layer1{
+    margin-left: 10px; 
+    float: left;
+}
+
+
+.checkBox {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    background-color: blue;
+
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+
+}
+
+td, th{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+    padding: 5px 20px 5px 10px;
+}
+
+.thSelectedItemTable{
+    border-right: 1px solid #fff;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.system-grid-headers{
+    background-color: rgba(128, 128, 128, 0.548);
+}
+
+.rootElement{
+    margin: 20px;
+}
+
+.searchBar{
+    width: 95%;
+}
+
+button:active, button:focus {
+    outline: none !important;
+  }
+  button::-moz-focus-inner {
+    border: 0 !important;
+  }
+
+.nodesManagingBarButton {
+    margin: 5px;
+}
+
+.nodesManagingBarButton1 {
+    height: 25px;
+    border: none;
+    padding: 6px;   
+}
+
+.nodesManagingBarButton1.btn1{
+    background: url('./assets/btn1.png');
+    width: 53px;
+}
+
+.nodesManagingBarButton1.btn2{
+    background: url('./assets/btn2.png');
+    margin: 5px;
+    width: 53px;
+}
+
+.nodesManagingBarButton1.btn3{
+    background: url('./assets/btn3.png');
+    width: 44px;
+}
+
+.nodesManagingBarButton1.btn4{
+    background: url('./assets/btn4.png');
+    width: 44px;
+    margin: 5px;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+ul ul {
+    padding-left: 25px;
+}
