@@ -1,0 +1,48 @@
+.label {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: rgba(235, 235, 245, 0.6);
+
+    display: block;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+.input {
+    display: none;
+}
+
+
+.imagePicker {
+    background: rgba(118, 118, 128, 0.24);
+    border-radius: 10px;
+    
+    border-width: 0;
+    height: 86px;
+    width: 122px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.imagePicker:hover{
+    cursor: pointer;
+}
+
+/* сделать константой */
+.imagePicker img {
+    max-width: 122px; 
+    max-height: 86px;
+}
+
+
+
+
+

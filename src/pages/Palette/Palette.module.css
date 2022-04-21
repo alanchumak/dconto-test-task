@@ -1,0 +1,17 @@
+.palette {
+    width: 343px;
+    margin: 15px;
+    /* height: 455px; */
+}
+
+
+.colorList{
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: auto; */
+    /* height: 356px; */
+    height: 156px;
+    padding: 25px;
+    align-content: flex-start;
+}
+

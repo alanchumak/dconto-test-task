@@ -1,0 +1,51 @@
+.label {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+    
+    letter-spacing: -0.408px;
+    
+    /* Label / Dark / Secondary */
+    
+    color: rgba(235, 235, 245, 0.6);
+
+    /* position: absolute;
+    top: 10px;
+    left: 10px; */
+    display: block;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+.input {
+    background: rgba(118, 118, 128, 0.24);
+    border-radius: 10px;
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+    
+    letter-spacing: -0.408px;
+    
+    /* Label / Dark / Secondary */
+    
+    color: rgba(235, 235, 245, 0.6);
+
+    border-width: 0;
+    padding: 6px 12px 8px;
+    width: 100%;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field:nth-of-type(1) {
+    margin-bottom: 18px;
+}

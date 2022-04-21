@@ -1,0 +1,44 @@
+.paletteItem {
+    width: 54px;
+    height: 54px;
+    border-radius: 5px;
+    border: 0;
+
+    /* margin: 15px; */
+    /* flex: 1 54px; */
+    margin-bottom: 17px;
+    /* display: inline; */
+}
+
+.paletteItem:nth-child(even) {
+    margin-left: 25px;
+}
+
+.paletteItem:nth-child(4n + 3) {
+    margin-left: 25px;
+}
+
+.input {
+    opacity: 0;
+    /* position: relative;
+    top: 3px; */
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.deleteIcon{
+    position: relative;
+    top: -62px;
+    left: 44px;
+    cursor: pointer;
+    display: none;
+}
+
+.paletteItem:hover .deleteIcon {
+    display: block;
+}
+
+.input:focus + .deleteIcon {
+    display: block;
+}

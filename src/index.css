@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: local("Gotham Pro"),
+    url("./fonts/GothamPro.ttf") format("truetype");
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background: #007AFF;
+  border-radius: 8px;
+  height: 50px;
+  width: 343px;
+
+  border: 0;
+
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+  letter-spacing: -0.408px;
+
+  /* Label / Dark / Primary */
+
+  color: #FFFFFF;
+
+  margin-top: 48px;
+  margin-bottom: 23px;
+
+}
+
+button:hover {
+  cursor: pointer;
 }

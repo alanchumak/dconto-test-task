@@ -1,10 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import categoriesReducer from '../features/categories/categoriesSlice';
-import linksTreeReducer from '../features/linksTree/linksTreeSlice';
+import paletteReducer from '../features/palette/paletteSlice'
 
 export const store = configureStore({
   reducer: {
-    categories: categoriesReducer,
-    // linksTree: linksTreeReducer,
+    palette: paletteReducer
   },
 });
