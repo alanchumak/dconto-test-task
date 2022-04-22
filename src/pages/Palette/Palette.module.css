@@ -1,6 +1,6 @@
 .palette {
     width: 343px;
-    margin: 15px;
+    /* margin: 15px; */
     /* height: 455px; */
 }
 
@@ -9,8 +9,8 @@
     display: flex;
     flex-wrap: wrap;
     /* overflow: auto; */
-    /* height: 356px; */
-    height: 156px;
+    height: 356px;
+    /* height: 156px; */
     padding: 25px;
     align-content: flex-start;
 }

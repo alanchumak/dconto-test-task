@@ -1,0 +1,9 @@
+.blackBackground {
+    background-color: black;
+    border-width: 0;
+    border-radius: 28px;
+    height: 100%;
+    margin: 45px 43px;
+
+    padding: 40px 50px;
+}

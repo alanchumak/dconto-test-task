@@ -4,13 +4,13 @@ import './index.css';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
-import { Palette } from './pages/Palette'
+import { App } from './App'
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      {/* <Form/> */}
-      <Palette/>
+      <App/>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

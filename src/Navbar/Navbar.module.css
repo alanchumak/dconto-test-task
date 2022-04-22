@@ -1,0 +1,21 @@
+.navLinks{
+      margin-left: 20px;
+      margin-bottom: 25px;
+}
+
+.navLinks a {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: white;
+
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+/* .navLinks a:active{
+    text-decoration: underline;
+} */
