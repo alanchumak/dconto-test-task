@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useLayoutEffect } from 'react'
+import React, { useEffect } from 'react'
 import { DeleteIcon } from './DeleteIcon';
 import styles from './PaletteItem.module.css';
 import {useDispatch } from 'react-redux';
@@ -14,13 +14,12 @@ export const PaletteItem = ({ id, color, open=false }) => {
     const onDeleted = () => dispatch(colorDeleted({id}))
 
     const inputRef = React.createRef()
-    // const [isNew, setIsNew] = useState(true)
     
     useEffect(() => {
         if (open){
         inputRef.current.focus()
         inputRef.current.click()
-        console.log('mounted', id)
+        // console.log('mounted', id)
         }
     }, []);
 

@@ -12,15 +12,17 @@ export const Palette = () => {
         id => <PaletteItem key={id} id={id} color={colors[id]} open={open}/>
     )
 
+    const onClicked = () =>{
+        dispatch(colorAdded())
+        setOpen(true)
+    }
+
     return(
         <div className={styles.palette}>
             <div className={styles.colorList}>
                 {content}
             </div>
-            <button onClick={() => {
-                dispatch(colorAdded())
-                setOpen(true)
-                }}>Добавить цвет</button>
+            <button onClick={onClicked}>Добавить цвет</button>
         </div>
     )
 }
