@@ -20,7 +20,7 @@ export const PaletteItem = ({ id, color }) => {
         // if (isNew){
         inputRef.current.focus()
         inputRef.current.click()
-        console.log('mounted', id)
+        // console.log('mounted', id)
         // }
     }, []);
 
