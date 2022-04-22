@@ -13,7 +13,7 @@ export const ImagePicker = React.forwardRef(
         const onChanged = (e) => { setFile(e.target.files[0]) }
 
         const content = file ?
-            <img src={URL.createObjectURL(file)} alt='photo'/>
+            <img src={URL.createObjectURL(file)} alt='smth'/>
             : <Placeholder />
 
         return (

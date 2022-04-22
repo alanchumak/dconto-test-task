@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const Link = (props) => {
     const isActiveStyle = ({ isActive }) =>
-        ({ 'text-decoration': isActive ? 'underline' : 'none' })
+        ({ textDecoration: isActive ? 'underline' : 'none' })
 
     return (
         <NavLink {...props} style={isActiveStyle}>

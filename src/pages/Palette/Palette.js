@@ -10,6 +10,7 @@ export const Palette = () => {
     const content = Object.keys(colors).map(
         id => <PaletteItem key={id} id={id} color={colors[id]} />
     )
+    
 
     return(
         <div className={styles.palette}>
