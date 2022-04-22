@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useLayoutEffect } from 'react'
 import { DeleteIcon } from './DeleteIcon';
 import styles from './PaletteItem.module.css';
 import {useDispatch } from 'react-redux';
 import { colorUpdated, colorDeleted} from '../../../features/palette/paletteSlice'
 
 
-export const PaletteItem = ({ id, color }) => {
+export const PaletteItem = ({ id, color, open=false }) => {
     const dispatch = useDispatch()
 
     const onChanged = (e) => dispatch(
@@ -17,11 +17,11 @@ export const PaletteItem = ({ id, color }) => {
     // const [isNew, setIsNew] = useState(true)
     
     useEffect(() => {
-        // if (isNew){
+        if (open){
         inputRef.current.focus()
         inputRef.current.click()
-        // console.log('mounted', id)
-        // }
+        console.log('mounted', id)
+        }
     }, []);
 
 
@@ -46,3 +46,4 @@ export const PaletteItem = ({ id, color }) => {
         </div>
     )
 }
+
